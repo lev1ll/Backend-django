@@ -1,0 +1,98 @@
+[
+  {
+    "model": "primera_app.TipoCategoria",
+    "pk": 1,
+    "fields": {
+      "nombre": "Encuadernación",
+      "habilitado": true
+    }
+  },
+  {
+    "model": "primera_app.TipoCategoria",
+    "pk": 2,
+    "fields": {
+      "nombre": "Temática",
+      "habilitado": true
+    }
+  },
+  {
+    "model": "primera_app.TipoCategoria",
+    "pk": 3,
+    "fields": {
+      "nombre": "Literatura",
+      "habilitado": true
+    }
+  },
+  {
+    "model": "primera_app.TipoCategoria",
+    "pk": 4,
+    "fields": {
+      "nombre": "Consulta y Referencia",
+      "habilitado": true
+    }
+  },
+  {
+    "model": "primera_app.TipoCategoria",
+    "pk": 5,
+    "fields": {
+      "nombre": "Artístico e Ilustrado",
+      "habilitado": true
+    }
+  },
+  {
+    "model": "primera_app.TipoCategoria",
+    "pk": 6,
+    "fields": {
+      "nombre": "Divulgativo",
+      "habilitado": true
+    }
+  },
+  {
+    "model": "primera_app.TipoCategoria",
+    "pk": 7,
+    "fields": {
+      "nombre": "Texto",
+      "habilitado": true
+    }
+  },
+  {
+    "model": "primera_app.TipoCategoria",
+    "pk": 8,
+    "fields": {
+      "nombre": "Técnico y Especializado",
+      "habilitado": true
+    }
+  },
+  {
+    "model": "primera_app.TipoCategoria",
+    "pk": 9,
+    "fields": {
+      "nombre": "Práctico o Manual",
+      "habilitado": true
+    }
+  },
+  {
+    "model": "primera_app.TipoCategoria",
+    "pk": 10,
+    "fields": {
+      "nombre": "Autoayuda y Superación Personal",
+      "habilitado": true
+    }
+  },
+  {
+    "model": "primera_app.TipoCategoria",
+    "pk": 11,
+    "fields": {
+      "nombre": "Religioso y Sagrado",
+      "habilitado": true
+    }
+  },
+  {
+    "model": "primera_app.TipoCategoria",
+    "pk": 12,
+    "fields": {
+      "nombre": "Infantil",
+      "habilitado": true
+    }
+  }
+]

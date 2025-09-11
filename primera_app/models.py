@@ -47,3 +47,25 @@ class Prestamo(models.Model):
     id_lector = models.ForeignKey(Lector, on_delete=models.CASCADE)
     fecha_prestamo = models.DateField(null= False)
     fecha_devolucion = models.DateField(null= False)
+
+class TipoCategoria(models.Model):
+    nombre = models.CharField(max_length=100, unique= True)
+    habilitado = models.BooleanField(default= True)
+    # AÑADE null=True a estas dos líneas
+    updated_at = models.DateTimeField(auto_now = True, null=True)
+    created_at = models.DateTimeField(auto_now_add = True, null=True)
+    
+    def __str__(self):
+        return self.nombre 
+
+class Categoria(models.Model):
+    tipo_categoria = models.ForeignKey(TipoCategoria, on_delete=models.CASCADE)
+    nombre = models.CharField(max_length=100)
+    descripcion = models.TextField(blank=True, null=True)
+    habilitado = models.BooleanField(default=True)
+    # AÑADE null=True a estas dos líneas
+    updated_at = models.DateTimeField(auto_now=True, null=True)
+    created_at = models.DateTimeField(auto_now_add=True, null=True)
+
+    def __str__(self):
+        return self.nombre

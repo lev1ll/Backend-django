@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Nacionalidad, Autor, Comuna, Direccion, Biblioteca, Libro, Lector, Prestamo
+from .models import Nacionalidad, Autor, Comuna, Direccion, Biblioteca, Libro, Lector, Prestamo, TipoCategoria,Categoria
 
 # Register your models here.
 admin.site.register(Nacionalidad)
@@ -10,3 +10,5 @@ admin.site.register(Biblioteca)
 admin.site.register(Libro)
 admin.site.register(Lector)
 admin.site.register(Prestamo)
+admin.site.register(TipoCategoria)
+admin.site.register(Categoria)
