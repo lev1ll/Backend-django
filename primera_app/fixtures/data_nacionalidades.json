@@ -4,7 +4,7 @@
     "pk": 1,
     "fields": {
       "pais": "Afganistán",
-      "Nacionalidad": "Afgano"
+      "nombre_nacionalidad": "Afgano"
     }
   },
   {
@@ -12,7 +12,7 @@
     "pk": 2,
     "fields": {
       "pais": "Albania",
-      "Nacionalidad": "Albanés"
+      "nombre_nacionalidad": "Albanés"
     }
   },
   {
@@ -20,7 +20,7 @@
     "pk": 3,
     "fields": {
       "pais": "Alemania",
-      "Nacionalidad": "Alemán"
+      "nombre_nacionalidad": "Alemán"
     }
   },
   {
@@ -28,7 +28,7 @@
     "pk": 4,
     "fields": {
       "pais": "Andorra",
-      "Nacionalidad": "Andorrano"
+      "nombre_nacionalidad": "Andorrano"
     }
   },
   {
@@ -36,7 +36,7 @@
     "pk": 5,
     "fields": {
       "pais": "Angola",
-      "Nacionalidad": "Angoleño"
+      "nombre_nacionalidad": "Angoleño"
     }
   },
   {
@@ -44,7 +44,7 @@
     "pk": 6,
     "fields": {
       "pais": "Anguila",
-      "Nacionalidad": "Anguilense"
+      "nombre_nacionalidad": "Anguilense"
     }
   },
   {
@@ -52,7 +52,7 @@
     "pk": 7,
     "fields": {
       "pais": "Antigua y Barbuda",
-      "Nacionalidad": "Antiguano"
+      "nombre_nacionalidad": "Antiguano"
     }
   },
   {
@@ -60,7 +60,7 @@
     "pk": 8,
     "fields": {
       "pais": "Arabia Saudita",
-      "Nacionalidad": "Saudí o saudita"
+      "nombre_nacionalidad": "Saudí o saudita"
     }
   },
   {
@@ -68,7 +68,7 @@
     "pk": 9,
     "fields": {
       "pais": "Argelia",
-      "Nacionalidad": "Argelino"
+      "nombre_nacionalidad": "Argelino"
     }
   },
   {
@@ -76,7 +76,7 @@
     "pk": 10,
     "fields": {
       "pais": "Argentina",
-      "Nacionalidad": "Argentino"
+      "nombre_nacionalidad": "Argentino"
     }
   },
   {
@@ -84,7 +84,7 @@
     "pk": 11,
     "fields": {
       "pais": "Armenia",
-      "Nacionalidad": "Armenio"
+      "nombre_nacionalidad": "Armenio"
     }
   },
   {
@@ -92,7 +92,7 @@
     "pk": 12,
     "fields": {
       "pais": "Aruba",
-      "Nacionalidad": "Arubeño"
+      "nombre_nacionalidad": "Arubeño"
     }
   },
   {
@@ -100,7 +100,7 @@
     "pk": 13,
     "fields": {
       "pais": "Australia",
-      "Nacionalidad": "Australiano"
+      "nombre_nacionalidad": "Australiano"
     }
   },
   {
@@ -108,7 +108,7 @@
     "pk": 14,
     "fields": {
       "pais": "Austria",
-      "Nacionalidad": "Austriaco"
+      "nombre_nacionalidad": "Austriaco"
     }
   },
   {
@@ -116,7 +116,7 @@
     "pk": 15,
     "fields": {
       "pais": "Azerbaiyán",
-      "Nacionalidad": "Azerbaiyano"
+      "nombre_nacionalidad": "Azerbaiyano"
     }
   },
   {
@@ -124,7 +124,7 @@
     "pk": 16,
     "fields": {
       "pais": "Bahamas",
-      "Nacionalidad": "Bahameño"
+      "nombre_nacionalidad": "Bahameño"
     }
   },
   {
@@ -132,7 +132,7 @@
     "pk": 17,
     "fields": {
       "pais": "Bangladés",
-      "Nacionalidad": "Bangladesí"
+      "nombre_nacionalidad": "Bangladesí"
     }
   },
   {
@@ -140,7 +140,7 @@
     "pk": 18,
     "fields": {
       "pais": "Barbados",
-      "Nacionalidad": "Barbadense"
+      "nombre_nacionalidad": "Barbadense"
     }
   },
   {
@@ -148,7 +148,7 @@
     "pk": 19,
     "fields": {
       "pais": "Baréin",
-      "Nacionalidad": "Bareiní"
+      "nombre_nacionalidad": "Bareiní"
     }
   },
   {
@@ -156,7 +156,7 @@
     "pk": 20,
     "fields": {
       "pais": "Bélgica",
-      "Nacionalidad": "Belga"
+      "nombre_nacionalidad": "Belga"
     }
   },
   {
@@ -164,7 +164,7 @@
     "pk": 21,
     "fields": {
       "pais": "Belice",
-      "Nacionalidad": "Beliceño"
+      "nombre_nacionalidad": "Beliceño"
     }
   },
   {
@@ -172,7 +172,7 @@
     "pk": 22,
     "fields": {
       "pais": "Benín",
-      "Nacionalidad": "Beninés"
+      "nombre_nacionalidad": "Beninés"
     }
   },
   {
@@ -180,7 +180,7 @@
     "pk": 23,
     "fields": {
       "pais": "Bermudas",
-      "Nacionalidad": "Bermudeño"
+      "nombre_nacionalidad": "Bermudeño"
     }
   },
   {
@@ -188,7 +188,7 @@
     "pk": 24,
     "fields": {
       "pais": "Bielorrusia",
-      "Nacionalidad": "Bielorruso"
+      "nombre_nacionalidad": "Bielorruso"
     }
   },
   {
@@ -196,7 +196,7 @@
     "pk": 25,
     "fields": {
       "pais": "Estado Plurinacional de Bolivia",
-      "Nacionalidad": "Boliviano"
+      "nombre_nacionalidad": "Boliviano"
     }
   },
   {
@@ -204,7 +204,7 @@
     "pk": 26,
     "fields": {
       "pais": "Bosnia y Herzegovina",
-      "Nacionalidad": "Bosnio"
+      "nombre_nacionalidad": "Bosnio"
     }
   },
   {
@@ -212,7 +212,7 @@
     "pk": 27,
     "fields": {
       "pais": "Botsuana",
-      "Nacionalidad": "Botsuano"
+      "nombre_nacionalidad": "Botsuano"
     }
   },
   {
@@ -220,7 +220,7 @@
     "pk": 28,
     "fields": {
       "pais": "Brasil",
-      "Nacionalidad": "Brasileño"
+      "nombre_nacionalidad": "Brasileño"
     }
   },
   {
@@ -228,7 +228,7 @@
     "pk": 29,
     "fields": {
       "pais": "Brunéi Darussalam",
-      "Nacionalidad": "Bruneano"
+      "nombre_nacionalidad": "Bruneano"
     }
   },
   {
@@ -236,7 +236,7 @@
     "pk": 30,
     "fields": {
       "pais": "Bulgaria",
-      "Nacionalidad": "Búlgaro"
+      "nombre_nacionalidad": "Búlgaro"
     }
   },
   {
@@ -244,7 +244,7 @@
     "pk": 31,
     "fields": {
       "pais": "Burkina Faso",
-      "Nacionalidad": "Burkinés"
+      "nombre_nacionalidad": "Burkinés"
     }
   },
   {
@@ -252,7 +252,7 @@
     "pk": 32,
     "fields": {
       "pais": "Burundi",
-      "Nacionalidad": "Burundés"
+      "nombre_nacionalidad": "Burundés"
     }
   },
   {
@@ -260,7 +260,7 @@
     "pk": 33,
     "fields": {
       "pais": "Bután",
-      "Nacionalidad": "Butanés"
+      "nombre_nacionalidad": "Butanés"
     }
   },
   {
@@ -268,7 +268,7 @@
     "pk": 34,
     "fields": {
       "pais": "Cabo Verde",
-      "Nacionalidad": "Caboverdiano"
+      "nombre_nacionalidad": "Caboverdiano"
     }
   },
   {
@@ -276,7 +276,7 @@
     "pk": 35,
     "fields": {
       "pais": "Camboya",
-      "Nacionalidad": "Camboyano"
+      "nombre_nacionalidad": "Camboyano"
     }
   },
   {
@@ -284,7 +284,7 @@
     "pk": 36,
     "fields": {
       "pais": "Camerún",
-      "Nacionalidad": "Camerunés"
+      "nombre_nacionalidad": "Camerunés"
     }
   },
   {
@@ -292,7 +292,7 @@
     "pk": 37,
     "fields": {
       "pais": "Canadá",
-      "Nacionalidad": "Canadiense"
+      "nombre_nacionalidad": "Canadiense"
     }
   },
   {
@@ -300,7 +300,7 @@
     "pk": 38,
     "fields": {
       "pais": "Chad",
-      "Nacionalidad": "Chadiano"
+      "nombre_nacionalidad": "Chadiano"
     }
   },
   {
@@ -308,7 +308,7 @@
     "pk": 39,
     "fields": {
       "pais": "Chile",
-      "Nacionalidad": "Chileno"
+      "nombre_nacionalidad": "Chileno"
     }
   },
   {
@@ -316,7 +316,7 @@
     "pk": 40,
     "fields": {
       "pais": "República Popular China",
-      "Nacionalidad": "Chino"
+      "nombre_nacionalidad": "Chino"
     }
   },
   {
@@ -324,7 +324,7 @@
     "pk": 41,
     "fields": {
       "pais": "Chipre",
-      "Nacionalidad": "Chipriota"
+      "nombre_nacionalidad": "Chipriota"
     }
   },
   {
@@ -332,7 +332,7 @@
     "pk": 42,
     "fields": {
       "pais": "Colombia",
-      "Nacionalidad": "Colombiano"
+      "nombre_nacionalidad": "Colombiano"
     }
   },
   {
@@ -340,7 +340,7 @@
     "pk": 43,
     "fields": {
       "pais": "Comoras",
-      "Nacionalidad": "Comorense"
+      "nombre_nacionalidad": "Comorense"
     }
   },
   {
@@ -348,7 +348,7 @@
     "pk": 44,
     "fields": {
       "pais": "La República Democrática del Congo",
-      "Nacionalidad": "Congoleño"
+      "nombre_nacionalidad": "Congoleño"
     }
   },
   {
@@ -356,7 +356,7 @@
     "pk": 45,
     "fields": {
       "pais": "Congo",
-      "Nacionalidad": "Congoleño"
+      "nombre_nacionalidad": "Congoleño"
     }
   },
   {
@@ -364,7 +364,7 @@
     "pk": 46,
     "fields": {
       "pais": "República de Corea",
-      "Nacionalidad": "Surcoreano"
+      "nombre_nacionalidad": "Surcoreano"
     }
   },
   {
@@ -372,7 +372,7 @@
     "pk": 47,
     "fields": {
       "pais": "República Democrática Popular de Corea",
-      "Nacionalidad": "Norcoreano"
+      "nombre_nacionalidad": "Norcoreano"
     }
   },
   {
@@ -380,7 +380,7 @@
     "pk": 48,
     "fields": {
       "pais": "Costa de Marfil",
-      "Nacionalidad": "Marfileño"
+      "nombre_nacionalidad": "Marfileño"
     }
   },
   {
@@ -388,7 +388,7 @@
     "pk": 49,
     "fields": {
       "pais": "Costa Rica",
-      "Nacionalidad": "Costarricense"
+      "nombre_nacionalidad": "Costarricense"
     }
   },
   {
@@ -396,7 +396,7 @@
     "pk": 50,
     "fields": {
       "pais": "Croacia",
-      "Nacionalidad": "Croata"
+      "nombre_nacionalidad": "Croata"
     }
   },
   {
@@ -404,7 +404,7 @@
     "pk": 51,
     "fields": {
       "pais": "Cuba",
-      "Nacionalidad": "Cubano"
+      "nombre_nacionalidad": "Cubano"
     }
   },
   {
@@ -412,7 +412,7 @@
     "pk": 52,
     "fields": {
       "pais": "Curazao",
-      "Nacionalidad": "Curazoleño"
+      "nombre_nacionalidad": "Curazoleño"
     }
   },
   {
@@ -420,7 +420,7 @@
     "pk": 53,
     "fields": {
       "pais": "Dinamarca",
-      "Nacionalidad": "Danés"
+      "nombre_nacionalidad": "Danés"
     }
   },
   {
@@ -428,7 +428,7 @@
     "pk": 54,
     "fields": {
       "pais": "Dominica",
-      "Nacionalidad": "Dominiqués"
+      "nombre_nacionalidad": "Dominiqués"
     }
   },
   {
@@ -436,7 +436,7 @@
     "pk": 55,
     "fields": {
       "pais": "Ecuador",
-      "Nacionalidad": "Ecuatoriano"
+      "nombre_nacionalidad": "Ecuatoriano"
     }
   },
   {
@@ -444,7 +444,7 @@
     "pk": 56,
     "fields": {
       "pais": "Egipto",
-      "Nacionalidad": "Egipcio"
+      "nombre_nacionalidad": "Egipcio"
     }
   },
   {
@@ -452,7 +452,7 @@
     "pk": 57,
     "fields": {
       "pais": "El Salvador",
-      "Nacionalidad": "Salvadoreño"
+      "nombre_nacionalidad": "Salvadoreño"
     }
   },
   {
@@ -460,7 +460,7 @@
     "pk": 58,
     "fields": {
       "pais": "Emiratos Árabes Unidos",
-      "Nacionalidad": "Emiratí"
+      "nombre_nacionalidad": "Emiratí"
     }
   },
   {
@@ -468,7 +468,7 @@
     "pk": 59,
     "fields": {
       "pais": "Eritrea",
-      "Nacionalidad": "Eritreo"
+      "nombre_nacionalidad": "Eritreo"
     }
   },
   {
@@ -476,7 +476,7 @@
     "pk": 60,
     "fields": {
       "pais": "Eslovaquia",
-      "Nacionalidad": "Eslovaco"
+      "nombre_nacionalidad": "Eslovaco"
     }
   },
   {
@@ -484,7 +484,7 @@
     "pk": 61,
     "fields": {
       "pais": "Eslovenia",
-      "Nacionalidad": "Esloveno"
+      "nombre_nacionalidad": "Esloveno"
     }
   },
   {
@@ -492,7 +492,7 @@
     "pk": 62,
     "fields": {
       "pais": "España",
-      "Nacionalidad": "Español"
+      "nombre_nacionalidad": "Español"
     }
   },
   {
@@ -500,7 +500,7 @@
     "pk": 63,
     "fields": {
       "pais": "Estados Unidos",
-      "Nacionalidad": "Estadounidense"
+      "nombre_nacionalidad": "Estadounidense"
     }
   },
   {
@@ -508,7 +508,7 @@
     "pk": 64,
     "fields": {
       "pais": "Estonia",
-      "Nacionalidad": "Estonio"
+      "nombre_nacionalidad": "Estonio"
     }
   },
   {
@@ -516,7 +516,7 @@
     "pk": 65,
     "fields": {
       "pais": "Etiopía",
-      "Nacionalidad": "Etíope"
+      "nombre_nacionalidad": "Etíope"
     }
   },
   {
@@ -524,7 +524,7 @@
     "pk": 66,
     "fields": {
       "pais": "Federacion Rusa",
-      "Nacionalidad": "Ruso"
+      "nombre_nacionalidad": "Ruso"
     }
   },
   {
@@ -532,7 +532,7 @@
     "pk": 67,
     "fields": {
       "pais": "Filipinas",
-      "Nacionalidad": "Filipino"
+      "nombre_nacionalidad": "Filipino"
     }
   },
   {
@@ -540,7 +540,7 @@
     "pk": 68,
     "fields": {
       "pais": "Finlandia",
-      "Nacionalidad": "Finlandés"
+      "nombre_nacionalidad": "Finlandés"
     }
   },
   {
@@ -548,7 +548,7 @@
     "pk": 69,
     "fields": {
       "pais": "Fiyi",
-      "Nacionalidad": "Fiyiano"
+      "nombre_nacionalidad": "Fiyiano"
     }
   },
   {
@@ -556,7 +556,7 @@
     "pk": 70,
     "fields": {
       "pais": "Francia",
-      "Nacionalidad": "Francés"
+      "nombre_nacionalidad": "Francés"
     }
   },
   {
@@ -564,7 +564,7 @@
     "pk": 71,
     "fields": {
       "pais": "Gabón",
-      "Nacionalidad": "Gabonés"
+      "nombre_nacionalidad": "Gabonés"
     }
   },
   {
@@ -572,7 +572,7 @@
     "pk": 72,
     "fields": {
       "pais": "Gambia",
-      "Nacionalidad": "Gambiano"
+      "nombre_nacionalidad": "Gambiano"
     }
   },
   {
@@ -580,7 +580,7 @@
     "pk": 73,
     "fields": {
       "pais": "Georgia",
-      "Nacionalidad": "Georgiano"
+      "nombre_nacionalidad": "Georgiano"
     }
   },
   {
@@ -588,7 +588,7 @@
     "pk": 74,
     "fields": {
       "pais": "Ghana",
-      "Nacionalidad": "Ghanés"
+      "nombre_nacionalidad": "Ghanés"
     }
   },
   {
@@ -596,7 +596,7 @@
     "pk": 75,
     "fields": {
       "pais": "Gibraltar",
-      "Nacionalidad": "Gibraltareño"
+      "nombre_nacionalidad": "Gibraltareño"
     }
   },
   {
@@ -604,7 +604,7 @@
     "pk": 76,
     "fields": {
       "pais": "Granada",
-      "Nacionalidad": "Granadino"
+      "nombre_nacionalidad": "Granadino"
     }
   },
   {
@@ -612,7 +612,7 @@
     "pk": 77,
     "fields": {
       "pais": "Grecia",
-      "Nacionalidad": "Griego"
+      "nombre_nacionalidad": "Griego"
     }
   },
   {
@@ -620,7 +620,7 @@
     "pk": 78,
     "fields": {
       "pais": "Groenlandia",
-      "Nacionalidad": "Groenlandés"
+      "nombre_nacionalidad": "Groenlandés"
     }
   },
   {
@@ -628,7 +628,7 @@
     "pk": 79,
     "fields": {
       "pais": "Guadalupe",
-      "Nacionalidad": "Guadalupeño"
+      "nombre_nacionalidad": "Guadalupeño"
     }
   },
   {
@@ -636,7 +636,7 @@
     "pk": 80,
     "fields": {
       "pais": "Guam",
-      "Nacionalidad": "Guameño"
+      "nombre_nacionalidad": "Guameño"
     }
   },
   {
@@ -644,7 +644,7 @@
     "pk": 81,
     "fields": {
       "pais": "Guatemala",
-      "Nacionalidad": "Guatemalteco"
+      "nombre_nacionalidad": "Guatemalteco"
     }
   },
   {
@@ -652,7 +652,7 @@
     "pk": 82,
     "fields": {
       "pais": "Guayana Francesa",
-      "Nacionalidad": "Francoguayanés"
+      "nombre_nacionalidad": "Francoguayanés"
     }
   },
   {
@@ -660,7 +660,7 @@
     "pk": 83,
     "fields": {
       "pais": "Guernsey",
-      "Nacionalidad": "Guernesiais"
+      "nombre_nacionalidad": "Guernesiais"
     }
   },
   {
@@ -668,7 +668,7 @@
     "pk": 84,
     "fields": {
       "pais": "Guinea-Bisáu",
-      "Nacionalidad": "Guineano"
+      "nombre_nacionalidad": "Guineano"
     }
   },
   {
@@ -676,7 +676,7 @@
     "pk": 85,
     "fields": {
       "pais": "Guinea Ecuatorial",
-      "Nacionalidad": "Ecuatoguineano"
+      "nombre_nacionalidad": "Ecuatoguineano"
     }
   },
   {
@@ -684,7 +684,7 @@
     "pk": 86,
     "fields": {
       "pais": "Guinea",
-      "Nacionalidad": "Guineano"
+      "nombre_nacionalidad": "Guineano"
     }
   },
   {
@@ -692,7 +692,7 @@
     "pk": 87,
     "fields": {
       "pais": "Guyana",
-      "Nacionalidad": "Guyanés"
+      "nombre_nacionalidad": "Guyanés"
     }
   },
   {
@@ -700,7 +700,7 @@
     "pk": 88,
     "fields": {
       "pais": "Haití",
-      "Nacionalidad": "Haitiano"
+      "nombre_nacionalidad": "Haitiano"
     }
   },
   {
@@ -708,7 +708,7 @@
     "pk": 89,
     "fields": {
       "pais": "Honduras",
-      "Nacionalidad": "Hondureño"
+      "nombre_nacionalidad": "Hondureño"
     }
   },
   {
@@ -716,7 +716,7 @@
     "pk": 90,
     "fields": {
       "pais": "Hong Kong",
-      "Nacionalidad": "Hongkonés"
+      "nombre_nacionalidad": "Hongkonés"
     }
   },
   {
@@ -724,7 +724,7 @@
     "pk": 91,
     "fields": {
       "pais": "Hungría",
-      "Nacionalidad": "Húngaro"
+      "nombre_nacionalidad": "Húngaro"
     }
   },
   {
@@ -732,7 +732,7 @@
     "pk": 92,
     "fields": {
       "pais": "India",
-      "Nacionalidad": "Indio"
+      "nombre_nacionalidad": "Indio"
     }
   },
   {
@@ -740,7 +740,7 @@
     "pk": 93,
     "fields": {
       "pais": "Indonesia",
-      "Nacionalidad": "Indonesio"
+      "nombre_nacionalidad": "Indonesio"
     }
   },
   {
@@ -748,7 +748,7 @@
     "pk": 94,
     "fields": {
       "pais": "Irak",
-      "Nacionalidad": "Iraquí"
+      "nombre_nacionalidad": "Iraquí"
     }
   },
   {
@@ -756,7 +756,7 @@
     "pk": 95,
     "fields": {
       "pais": "República Islámica de Irán",
-      "Nacionalidad": "Iraní"
+      "nombre_nacionalidad": "Iraní"
     }
   },
   {
@@ -764,7 +764,7 @@
     "pk": 96,
     "fields": {
       "pais": "Irlanda",
-      "Nacionalidad": "Irlandés"
+      "nombre_nacionalidad": "Irlandés"
     }
   },
   {
@@ -772,7 +772,7 @@
     "pk": 97,
     "fields": {
       "pais": "Isla de Man",
-      "Nacionalidad": "Manés"
+      "nombre_nacionalidad": "Manés"
     }
   },
   {
@@ -780,7 +780,7 @@
     "pk": 98,
     "fields": {
       "pais": "Isla de Navidad",
-      "Nacionalidad": "Navideño"
+      "nombre_nacionalidad": "Navideño"
     }
   },
   {
@@ -788,7 +788,7 @@
     "pk": 99,
     "fields": {
       "pais": "Isla Norfolk",
-      "Nacionalidad": "Norfolkense"
+      "nombre_nacionalidad": "Norfolkense"
     }
   },
   {
@@ -796,7 +796,7 @@
     "pk": 100,
     "fields": {
       "pais": "Islandia",
-      "Nacionalidad": "Islandés"
+      "nombre_nacionalidad": "Islandés"
     }
   },
   {
@@ -804,7 +804,7 @@
     "pk": 101,
     "fields": {
       "pais": "Islas Åland",
-      "Nacionalidad": "Ålandés"
+      "nombre_nacionalidad": "Ålandés"
     }
   },
   {
@@ -812,7 +812,7 @@
     "pk": 102,
     "fields": {
       "pais": "Islas Caimán",
-      "Nacionalidad": "Caimanés"
+      "nombre_nacionalidad": "Caimanés"
     }
   },
   {
@@ -820,7 +820,7 @@
     "pk": 103,
     "fields": {
       "pais": "Islas Cocos (Keeling)",
-      "Nacionalidad": "Cocano"
+      "nombre_nacionalidad": "Cocano"
     }
   },
   {
@@ -828,7 +828,7 @@
     "pk": 104,
     "fields": {
       "pais": "Islas Cook",
-      "Nacionalidad": "Cookiano"
+      "nombre_nacionalidad": "Cookiano"
     }
   },
   {
@@ -836,7 +836,7 @@
     "pk": 105,
     "fields": {
       "pais": "Islas Falkland (Malvinas)",
-      "Nacionalidad": "Malvinense"
+      "nombre_nacionalidad": "Malvinense"
     }
   },
   {
@@ -844,7 +844,7 @@
     "pk": 106,
     "fields": {
       "pais": "Islas Feroe",
-      "Nacionalidad": "Feroés"
+      "nombre_nacionalidad": "Feroés"
     }
   },
   {
@@ -852,7 +852,7 @@
     "pk": 107,
     "fields": {
       "pais": "Islas Marianas del Norte",
-      "Nacionalidad": "Mariano"
+      "nombre_nacionalidad": "Mariano"
     }
   },
   {
@@ -860,7 +860,7 @@
     "pk": 108,
     "fields": {
       "pais": "Islas Marshall",
-      "Nacionalidad": "Marshalés"
+      "nombre_nacionalidad": "Marshalés"
     }
   },
   {
@@ -868,7 +868,7 @@
     "pk": 109,
     "fields": {
       "pais": "Islas Salomón",
-      "Nacionalidad": "Salomonense"
+      "nombre_nacionalidad": "Salomonense"
     }
   },
   {
@@ -876,7 +876,7 @@
     "pk": 110,
     "fields": {
       "pais": "Islas Turcas y Caicos",
-      "Nacionalidad": "Turcocaiqueño"
+      "nombre_nacionalidad": "Turcocaiqueño"
     }
   },
   {
@@ -884,7 +884,7 @@
     "pk": 111,
     "fields": {
       "pais": "Islas Ultramarinas Menores de Estados Unidos",
-      "Nacionalidad": "N/E"
+      "nombre_nacionalidad": "N/E"
     }
   },
   {
@@ -892,7 +892,7 @@
     "pk": 112,
     "fields": {
       "pais": "Islas Virgenes Británicas",
-      "Nacionalidad": "Virgenense"
+      "nombre_nacionalidad": "Virgenense"
     }
   },
   {
@@ -900,7 +900,7 @@
     "pk": 113,
     "fields": {
       "pais": "Islas Virgenes de Los Estados Unidos",
-      "Nacionalidad": "Virgenense"
+      "nombre_nacionalidad": "Virgenense"
     }
   },
   {
@@ -908,7 +908,7 @@
     "pk": 114,
     "fields": {
       "pais": "Israel",
-      "Nacionalidad": "Israelí"
+      "nombre_nacionalidad": "Israelí"
     }
   },
   {
@@ -916,7 +916,7 @@
     "pk": 115,
     "fields": {
       "pais": "Italia",
-      "Nacionalidad": "Italiano"
+      "nombre_nacionalidad": "Italiano"
     }
   },
   {
@@ -924,7 +924,7 @@
     "pk": 116,
     "fields": {
       "pais": "Jamaica",
-      "Nacionalidad": "Jamaicano"
+      "nombre_nacionalidad": "Jamaicano"
     }
   },
   {
@@ -932,7 +932,7 @@
     "pk": 117,
     "fields": {
       "pais": "Japón",
-      "Nacionalidad": "Japonés"
+      "nombre_nacionalidad": "Japonés"
     }
   },
   {
@@ -940,7 +940,7 @@
     "pk": 118,
     "fields": {
       "pais": "Jersey",
-      "Nacionalidad": "Jerseyés"
+      "nombre_nacionalidad": "Jerseyés"
     }
   },
   {
@@ -948,7 +948,7 @@
     "pk": 119,
     "fields": {
       "pais": "Jordania",
-      "Nacionalidad": "Jordano"
+      "nombre_nacionalidad": "Jordano"
     }
   },
   {
@@ -956,7 +956,7 @@
     "pk": 120,
     "fields": {
       "pais": "Kazajistán",
-      "Nacionalidad": "Kazajo"
+      "nombre_nacionalidad": "Kazajo"
     }
   },
   {
@@ -964,7 +964,7 @@
     "pk": 121,
     "fields": {
       "pais": "Kenia",
-      "Nacionalidad": "Keniano"
+      "nombre_nacionalidad": "Keniano"
     }
   },
   {
@@ -972,7 +972,7 @@
     "pk": 122,
     "fields": {
       "pais": "Kirguistán",
-      "Nacionalidad": "Kirguís;Kirguiso"
+      "nombre_nacionalidad": "Kirguís;Kirguiso"
     }
   },
   {
@@ -980,7 +980,7 @@
     "pk": 123,
     "fields": {
       "pais": "Kiribati",
-      "Nacionalidad": "Kiribatiano"
+      "nombre_nacionalidad": "Kiribatiano"
     }
   },
   {
@@ -988,7 +988,7 @@
     "pk": 124,
     "fields": {
       "pais": "Kuwait",
-      "Nacionalidad": "Kuwaití"
+      "nombre_nacionalidad": "Kuwaití"
     }
   },
   {
@@ -996,7 +996,7 @@
     "pk": 125,
     "fields": {
       "pais": "Lesoto",
-      "Nacionalidad": "Lesotense"
+      "nombre_nacionalidad": "Lesotense"
     }
   },
   {
@@ -1004,7 +1004,7 @@
     "pk": 126,
     "fields": {
       "pais": "Letonia",
-      "Nacionalidad": "Letón"
+      "nombre_nacionalidad": "Letón"
     }
   },
   {
@@ -1012,7 +1012,7 @@
     "pk": 127,
     "fields": {
       "pais": "Líbano",
-      "Nacionalidad": "Libanés"
+      "nombre_nacionalidad": "Libanés"
     }
   },
   {
@@ -1020,7 +1020,7 @@
     "pk": 128,
     "fields": {
       "pais": "Liberia",
-      "Nacionalidad": "Liberiano"
+      "nombre_nacionalidad": "Liberiano"
     }
   },
   {
@@ -1028,7 +1028,7 @@
     "pk": 129,
     "fields": {
       "pais": "Libia",
-      "Nacionalidad": "Libio"
+      "nombre_nacionalidad": "Libio"
     }
   },
   {
@@ -1036,7 +1036,7 @@
     "pk": 130,
     "fields": {
       "pais": "Liechtenstein",
-      "Nacionalidad": "Liechtensteiniano"
+      "nombre_nacionalidad": "Liechtensteiniano"
     }
   },
   {
@@ -1044,7 +1044,7 @@
     "pk": 131,
     "fields": {
       "pais": "Lituania",
-      "Nacionalidad": "Lituano"
+      "nombre_nacionalidad": "Lituano"
     }
   },
   {
@@ -1052,7 +1052,7 @@
     "pk": 132,
     "fields": {
       "pais": "Luxemburgo",
-      "Nacionalidad": "Luxemburgués"
+      "nombre_nacionalidad": "Luxemburgués"
     }
   },
   {
@@ -1060,7 +1060,7 @@
     "pk": 133,
     "fields": {
       "pais": "Macao",
-      "Nacionalidad": "Macaense"
+      "nombre_nacionalidad": "Macaense"
     }
   },
   {
@@ -1068,7 +1068,7 @@
     "pk": 134,
     "fields": {
       "pais": "La Antigua República Yugoslava de Macedonia",
-      "Nacionalidad": "Macedonio"
+      "nombre_nacionalidad": "Macedonio"
     }
   },
   {
@@ -1076,7 +1076,7 @@
     "pk": 135,
     "fields": {
       "pais": "Madagascar",
-      "Nacionalidad": "Malgache"
+      "nombre_nacionalidad": "Malgache"
     }
   },
   {
@@ -1084,7 +1084,7 @@
     "pk": 136,
     "fields": {
       "pais": "Malasia",
-      "Nacionalidad": "Malasio"
+      "nombre_nacionalidad": "Malasio"
     }
   },
   {
@@ -1092,7 +1092,7 @@
     "pk": 137,
     "fields": {
       "pais": "Malaui",
-      "Nacionalidad": "Malauí"
+      "nombre_nacionalidad": "Malauí"
     }
   },
   {
@@ -1100,7 +1100,7 @@
     "pk": 138,
     "fields": {
       "pais": "Maldivas",
-      "Nacionalidad": "Maldivo"
+      "nombre_nacionalidad": "Maldivo"
     }
   },
   {
@@ -1108,7 +1108,7 @@
     "pk": 139,
     "fields": {
       "pais": "Malí",
-      "Nacionalidad": "Maliense"
+      "nombre_nacionalidad": "Maliense"
     }
   },
   {
@@ -1116,7 +1116,7 @@
     "pk": 140,
     "fields": {
       "pais": "Malta",
-      "Nacionalidad": "Maltés"
+      "nombre_nacionalidad": "Maltés"
     }
   },
   {
@@ -1124,7 +1124,7 @@
     "pk": 141,
     "fields": {
       "pais": "Marruecos",
-      "Nacionalidad": "Marroquí"
+      "nombre_nacionalidad": "Marroquí"
     }
   },
   {
@@ -1132,7 +1132,7 @@
     "pk": 142,
     "fields": {
       "pais": "Martinica",
-      "Nacionalidad": "Martiniqués"
+      "nombre_nacionalidad": "Martiniqués"
     }
   },
   {
@@ -1140,7 +1140,7 @@
     "pk": 143,
     "fields": {
       "pais": "Mauricio",
-      "Nacionalidad": "Mauriciano"
+      "nombre_nacionalidad": "Mauriciano"
     }
   },
   {
@@ -1148,7 +1148,7 @@
     "pk": 144,
     "fields": {
       "pais": "Mauritania",
-      "Nacionalidad": "Mauritano"
+      "nombre_nacionalidad": "Mauritano"
     }
   },
   {
@@ -1156,7 +1156,7 @@
     "pk": 145,
     "fields": {
       "pais": "Mayotte",
-      "Nacionalidad": "Mayotés"
+      "nombre_nacionalidad": "Mayotés"
     }
   },
   {
@@ -1164,7 +1164,7 @@
     "pk": 146,
     "fields": {
       "pais": "México",
-      "Nacionalidad": "Mexicano"
+      "nombre_nacionalidad": "Mexicano"
     }
   },
   {
@@ -1172,7 +1172,7 @@
     "pk": 147,
     "fields": {
       "pais": "Estados Federados de Micronesia",
-      "Nacionalidad": "Micronesio"
+      "nombre_nacionalidad": "Micronesio"
     }
   },
   {
@@ -1180,7 +1180,7 @@
     "pk": 148,
     "fields": {
       "pais": "República de Moldavia",
-      "Nacionalidad": "Moldavo"
+      "nombre_nacionalidad": "Moldavo"
     }
   },
   {
@@ -1188,7 +1188,7 @@
     "pk": 149,
     "fields": {
       "pais": "Mónaco",
-      "Nacionalidad": "Monegasco"
+      "nombre_nacionalidad": "Monegasco"
     }
   },
   {
@@ -1196,7 +1196,7 @@
     "pk": 150,
     "fields": {
       "pais": "Mongolia",
-      "Nacionalidad": "Mongol"
+      "nombre_nacionalidad": "Mongol"
     }
   },
   {
@@ -1204,7 +1204,7 @@
     "pk": 151,
     "fields": {
       "pais": "Montenegro",
-      "Nacionalidad": "Montenegrino"
+      "nombre_nacionalidad": "Montenegrino"
     }
   },
   {
@@ -1212,7 +1212,7 @@
     "pk": 152,
     "fields": {
       "pais": "Montserrat",
-      "Nacionalidad": "Monserratino"
+      "nombre_nacionalidad": "Monserratino"
     }
   },
   {
@@ -1220,7 +1220,7 @@
     "pk": 153,
     "fields": {
       "pais": "Mozambique",
-      "Nacionalidad": "Mozambiqueño"
+      "nombre_nacionalidad": "Mozambiqueño"
     }
   },
   {
@@ -1228,7 +1228,7 @@
     "pk": 154,
     "fields": {
       "pais": "Myanmar",
-      "Nacionalidad": "Birmano"
+      "nombre_nacionalidad": "Birmano"
     }
   },
   {
@@ -1236,7 +1236,7 @@
     "pk": 155,
     "fields": {
       "pais": "Namibia",
-      "Nacionalidad": "Namibio"
+      "nombre_nacionalidad": "Namibio"
     }
   },
   {
@@ -1244,7 +1244,7 @@
     "pk": 156,
     "fields": {
       "pais": "Nauru",
-      "Nacionalidad": "Nauruano"
+      "nombre_nacionalidad": "Nauruano"
     }
   },
   {
@@ -1252,7 +1252,7 @@
     "pk": 157,
     "fields": {
       "pais": "Nepal",
-      "Nacionalidad": "Nepalés"
+      "nombre_nacionalidad": "Nepalés"
     }
   },
   {
@@ -1260,7 +1260,7 @@
     "pk": 158,
     "fields": {
       "pais": "Nicaragua",
-      "Nacionalidad": "Nicaragüense"
+      "nombre_nacionalidad": "Nicaragüense"
     }
   },
   {
@@ -1268,7 +1268,7 @@
     "pk": 159,
     "fields": {
       "pais": "Nigeria",
-      "Nacionalidad": "Nigeriano"
+      "nombre_nacionalidad": "Nigeriano"
     }
   },
   {
@@ -1276,7 +1276,7 @@
     "pk": 160,
     "fields": {
       "pais": "Níger",
-      "Nacionalidad": "Nigerino"
+      "nombre_nacionalidad": "Nigerino"
     }
   },
   {
@@ -1284,7 +1284,7 @@
     "pk": 161,
     "fields": {
       "pais": "Niue",
-      "Nacionalidad": "Niueño"
+      "nombre_nacionalidad": "Niueño"
     }
   },
   {
@@ -1292,7 +1292,7 @@
     "pk": 162,
     "fields": {
       "pais": "Noruega",
-      "Nacionalidad": "Noruego"
+      "nombre_nacionalidad": "Noruego"
     }
   },
   {
@@ -1300,7 +1300,7 @@
     "pk": 163,
     "fields": {
       "pais": "Nueva Caledonia",
-      "Nacionalidad": "Neocaledonio"
+      "nombre_nacionalidad": "Neocaledonio"
     }
   },
   {
@@ -1308,7 +1308,7 @@
     "pk": 164,
     "fields": {
       "pais": "Nueva Zelanda",
-      "Nacionalidad": "Neozelandés"
+      "nombre_nacionalidad": "Neozelandés"
     }
   },
   {
@@ -1316,7 +1316,7 @@
     "pk": 165,
     "fields": {
       "pais": "Omán",
-      "Nacionalidad": "Omaní"
+      "nombre_nacionalidad": "Omaní"
     }
   },
   {
@@ -1324,7 +1324,7 @@
     "pk": 166,
     "fields": {
       "pais": "Holanda/Países Bajos",
-      "Nacionalidad": "Neerlandés"
+      "nombre_nacionalidad": "Neerlandés"
     }
   },
   {
@@ -1332,7 +1332,7 @@
     "pk": 167,
     "fields": {
       "pais": "Pakistán",
-      "Nacionalidad": "Pakistaní"
+      "nombre_nacionalidad": "Pakistaní"
     }
   },
   {
@@ -1340,7 +1340,7 @@
     "pk": 168,
     "fields": {
       "pais": "Palaos",
-      "Nacionalidad": "Palauano"
+      "nombre_nacionalidad": "Palauano"
     }
   },
   {
@@ -1348,7 +1348,7 @@
     "pk": 169,
     "fields": {
       "pais": "Estado de Palestina",
-      "Nacionalidad": "Palestino"
+      "nombre_nacionalidad": "Palestino"
     }
   },
   {
@@ -1356,7 +1356,7 @@
     "pk": 170,
     "fields": {
       "pais": "Panamá",
-      "Nacionalidad": "Panameño"
+      "nombre_nacionalidad": "Panameño"
     }
   },
   {
@@ -1364,7 +1364,7 @@
     "pk": 171,
     "fields": {
       "pais": "Papúa Nueva Guinea",
-      "Nacionalidad": "Papú"
+      "nombre_nacionalidad": "Papú"
     }
   },
   {
@@ -1372,7 +1372,7 @@
     "pk": 172,
     "fields": {
       "pais": "Paraguay",
-      "Nacionalidad": "Paraguayo"
+      "nombre_nacionalidad": "Paraguayo"
     }
   },
   {
@@ -1380,7 +1380,7 @@
     "pk": 173,
     "fields": {
       "pais": "Perú",
-      "Nacionalidad": "Peruano"
+      "nombre_nacionalidad": "Peruano"
     }
   },
   {
@@ -1388,7 +1388,7 @@
     "pk": 174,
     "fields": {
       "pais": "Pitcairn",
-      "Nacionalidad": "Pitcairnés"
+      "nombre_nacionalidad": "Pitcairnés"
     }
   },
   {
@@ -1396,7 +1396,7 @@
     "pk": 175,
     "fields": {
       "pais": "Polinesia Francesa",
-      "Nacionalidad": "Francopolinesio"
+      "nombre_nacionalidad": "Francopolinesio"
     }
   },
   {
@@ -1404,7 +1404,7 @@
     "pk": 176,
     "fields": {
       "pais": "Polonia",
-      "Nacionalidad": "Polaco"
+      "nombre_nacionalidad": "Polaco"
     }
   },
   {
@@ -1412,7 +1412,7 @@
     "pk": 177,
     "fields": {
       "pais": "Portugal",
-      "Nacionalidad": "Portugués"
+      "nombre_nacionalidad": "Portugués"
     }
   },
   {
@@ -1420,7 +1420,7 @@
     "pk": 178,
     "fields": {
       "pais": "Puerto Rico",
-      "Nacionalidad": "Puertorriqueño"
+      "nombre_nacionalidad": "Puertorriqueño"
     }
   },
   {
@@ -1428,7 +1428,7 @@
     "pk": 179,
     "fields": {
       "pais": "Qatar",
-      "Nacionalidad": "Catarí"
+      "nombre_nacionalidad": "Catarí"
     }
   },
   {
@@ -1436,7 +1436,7 @@
     "pk": 180,
     "fields": {
       "pais": "Reino Unido",
-      "Nacionalidad": "Británico"
+      "nombre_nacionalidad": "Británico"
     }
   },
   {
@@ -1444,7 +1444,7 @@
     "pk": 181,
     "fields": {
       "pais": "República Centroafricana",
-      "Nacionalidad": "Centroafricano"
+      "nombre_nacionalidad": "Centroafricano"
     }
   },
   {
@@ -1452,7 +1452,7 @@
     "pk": 182,
     "fields": {
       "pais": "República Checa",
-      "Nacionalidad": "Checo"
+      "nombre_nacionalidad": "Checo"
     }
   },
   {
@@ -1460,7 +1460,7 @@
     "pk": 183,
     "fields": {
       "pais": "República Democrática Popular Lao",
-      "Nacionalidad": "Laosiano"
+      "nombre_nacionalidad": "Laosiano"
     }
   },
   {
@@ -1468,7 +1468,7 @@
     "pk": 184,
     "fields": {
       "pais": "República Dominicana",
-      "Nacionalidad": "Dominicano"
+      "nombre_nacionalidad": "Dominicano"
     }
   },
   {
@@ -1476,7 +1476,7 @@
     "pk": 185,
     "fields": {
       "pais": "Reunión",
-      "Nacionalidad": "Reunionés"
+      "nombre_nacionalidad": "Reunionés"
     }
   },
   {
@@ -1484,7 +1484,7 @@
     "pk": 186,
     "fields": {
       "pais": "Ruanda",
-      "Nacionalidad": "Ruandés"
+      "nombre_nacionalidad": "Ruandés"
     }
   },
   {
@@ -1492,7 +1492,7 @@
     "pk": 187,
     "fields": {
       "pais": "Rumania",
-      "Nacionalidad": "Rumano"
+      "nombre_nacionalidad": "Rumano"
     }
   },
   {
@@ -1500,7 +1500,7 @@
     "pk": 188,
     "fields": {
       "pais": "Sahara Occidental",
-      "Nacionalidad": "Saharaui"
+      "nombre_nacionalidad": "Saharaui"
     }
   },
   {
@@ -1508,7 +1508,7 @@
     "pk": 189,
     "fields": {
       "pais": "Samoa Americana",
-      "Nacionalidad": "Samoamericano"
+      "nombre_nacionalidad": "Samoamericano"
     }
   },
   {
@@ -1516,7 +1516,7 @@
     "pk": 190,
     "fields": {
       "pais": "Samoa",
-      "Nacionalidad": "Samoano"
+      "nombre_nacionalidad": "Samoano"
     }
   },
   {
@@ -1524,7 +1524,7 @@
     "pk": 191,
     "fields": {
       "pais": "San Bartolomé",
-      "Nacionalidad": "Sambartolomeano"
+      "nombre_nacionalidad": "Sambartolomeano"
     }
   },
   {
@@ -1532,7 +1532,7 @@
     "pk": 192,
     "fields": {
       "pais": "San Cristóbal y Nieves",
-      "Nacionalidad": "Cristobaleño"
+      "nombre_nacionalidad": "Cristobaleño"
     }
   },
   {
@@ -1540,7 +1540,7 @@
     "pk": 193,
     "fields": {
       "pais": "San Marino",
-      "Nacionalidad": "Sanmarinense"
+      "nombre_nacionalidad": "Sanmarinense"
     }
   },
   {
@@ -1548,7 +1548,7 @@
     "pk": 194,
     "fields": {
       "pais": "San Martín (Parte Francesa)",
-      "Nacionalidad": "Sanmartitense"
+      "nombre_nacionalidad": "Sanmartitense"
     }
   },
   {
@@ -1556,7 +1556,7 @@
     "pk": 195,
     "fields": {
       "pais": "San Pedro y Miquelón",
-      "Nacionalidad": "Ssampedrino"
+      "nombre_nacionalidad": "Ssampedrino"
     }
   },
   {
@@ -1564,7 +1564,7 @@
     "pk": 196,
     "fields": {
       "pais": "San Vicente y Las Granadinas",
-      "Nacionalidad": "Sanvicentino"
+      "nombre_nacionalidad": "Sanvicentino"
     }
   },
   {
@@ -1572,7 +1572,7 @@
     "pk": 197,
     "fields": {
       "pais": "Ascensión y Tristán de Acuña Santa Helena",
-      "Nacionalidad": "Santaheleno"
+      "nombre_nacionalidad": "Santaheleno"
     }
   },
   {
@@ -1580,7 +1580,7 @@
     "pk": 198,
     "fields": {
       "pais": "Santa Lucía",
-      "Nacionalidad": "Santalucense"
+      "nombre_nacionalidad": "Santalucense"
     }
   },
   {
@@ -1588,7 +1588,7 @@
     "pk": 199,
     "fields": {
       "pais": "Santa Sede (Ciudad Estado Vaticano)",
-      "Nacionalidad": "Vaticano"
+      "nombre_nacionalidad": "Vaticano"
     }
   },
   {
@@ -1596,7 +1596,7 @@
     "pk": 200,
     "fields": {
       "pais": "Santo Tomé y Principe",
-      "Nacionalidad": "Santotomense"
+      "nombre_nacionalidad": "Santotomense"
     }
   },
   {
@@ -1604,7 +1604,7 @@
     "pk": 201,
     "fields": {
       "pais": "Senegal",
-      "Nacionalidad": "Senegalés"
+      "nombre_nacionalidad": "Senegalés"
     }
   },
   {
@@ -1612,7 +1612,7 @@
     "pk": 202,
     "fields": {
       "pais": "Serbia",
-      "Nacionalidad": "Serbio"
+      "nombre_nacionalidad": "Serbio"
     }
   },
   {
@@ -1620,7 +1620,7 @@
     "pk": 203,
     "fields": {
       "pais": "Seychelles",
-      "Nacionalidad": "Seychellense"
+      "nombre_nacionalidad": "Seychellense"
     }
   },
   {
@@ -1628,7 +1628,7 @@
     "pk": 204,
     "fields": {
       "pais": "Sierra Leona",
-      "Nacionalidad": "Sierraleonés"
+      "nombre_nacionalidad": "Sierraleonés"
     }
   },
   {
@@ -1636,7 +1636,7 @@
     "pk": 205,
     "fields": {
       "pais": "Singapur",
-      "Nacionalidad": "Singapurense"
+      "nombre_nacionalidad": "Singapurense"
     }
   },
   {
@@ -1644,7 +1644,7 @@
     "pk": 206,
     "fields": {
       "pais": "Sint Maarten (Parte Neerlandesa)",
-      "Nacionalidad": "Sanmartitense"
+      "nombre_nacionalidad": "Sanmartitense"
     }
   },
   {
@@ -1652,7 +1652,7 @@
     "pk": 207,
     "fields": {
       "pais": "República Arabe de Siria",
-      "Nacionalidad": "Sirio"
+      "nombre_nacionalidad": "Sirio"
     }
   },
   {
@@ -1660,7 +1660,7 @@
     "pk": 208,
     "fields": {
       "pais": "Somalia",
-      "Nacionalidad": "Somalí"
+      "nombre_nacionalidad": "Somalí"
     }
   },
   {
@@ -1668,7 +1668,7 @@
     "pk": 209,
     "fields": {
       "pais": "Sri Lanka",
-      "Nacionalidad": "Ceilanés"
+      "nombre_nacionalidad": "Ceilanés"
     }
   },
   {
@@ -1676,7 +1676,7 @@
     "pk": 210,
     "fields": {
       "pais": "Suazilandia",
-      "Nacionalidad": "Suazi"
+      "nombre_nacionalidad": "Suazi"
     }
   },
   {
@@ -1684,7 +1684,7 @@
     "pk": 211,
     "fields": {
       "pais": "Sudáfrica",
-      "Nacionalidad": "Sudafricano"
+      "nombre_nacionalidad": "Sudafricano"
     }
   },
   {
@@ -1692,7 +1692,7 @@
     "pk": 212,
     "fields": {
       "pais": "Sudán del Sur",
-      "Nacionalidad": "Sursudanés"
+      "nombre_nacionalidad": "Sursudanés"
     }
   },
   {
@@ -1700,7 +1700,7 @@
     "pk": 213,
     "fields": {
       "pais": "Sudán",
-      "Nacionalidad": "Sudanés"
+      "nombre_nacionalidad": "Sudanés"
     }
   },
   {
@@ -1708,7 +1708,7 @@
     "pk": 214,
     "fields": {
       "pais": "Suecia",
-      "Nacionalidad": "Sueco"
+      "nombre_nacionalidad": "Sueco"
     }
   },
   {
@@ -1716,7 +1716,7 @@
     "pk": 215,
     "fields": {
       "pais": "Suiza",
-      "Nacionalidad": "Suizo"
+      "nombre_nacionalidad": "Suizo"
     }
   },
   {
@@ -1724,7 +1724,7 @@
     "pk": 216,
     "fields": {
       "pais": "Surinam",
-      "Nacionalidad": "Surinamés"
+      "nombre_nacionalidad": "Surinamés"
     }
   },
   {
@@ -1732,7 +1732,7 @@
     "pk": 217,
     "fields": {
       "pais": "Svalbard y Jan Mayen",
-      "Nacionalidad": "Svalbarense"
+      "nombre_nacionalidad": "Svalbarense"
     }
   },
   {
@@ -1740,7 +1740,7 @@
     "pk": 218,
     "fields": {
       "pais": "Tailandia",
-      "Nacionalidad": "Tailandés"
+      "nombre_nacionalidad": "Tailandés"
     }
   },
   {
@@ -1748,7 +1748,7 @@
     "pk": 219,
     "fields": {
       "pais": "Provincia de China Taiwán",
-      "Nacionalidad": "Taiwanés"
+      "nombre_nacionalidad": "Taiwanés"
     }
   },
   {
@@ -1756,7 +1756,7 @@
     "pk": 220,
     "fields": {
       "pais": "República Unida de Tanzania",
-      "Nacionalidad": "Tanzano"
+      "nombre_nacionalidad": "Tanzano"
     }
   },
   {
@@ -1764,7 +1764,7 @@
     "pk": 221,
     "fields": {
       "pais": "Tayikistán",
-      "Nacionalidad": "Tayiko"
+      "nombre_nacionalidad": "Tayiko"
     }
   },
   {
@@ -1772,7 +1772,7 @@
     "pk": 222,
     "fields": {
       "pais": "Territorio Británico del Océano Índico",
-      "Nacionalidad": "Chaguense"
+      "nombre_nacionalidad": "Chaguense"
     }
   },
   {
@@ -1780,7 +1780,7 @@
     "pk": 223,
     "fields": {
       "pais": "Timor-Leste",
-      "Nacionalidad": "Timorense"
+      "nombre_nacionalidad": "Timorense"
     }
   },
   {
@@ -1788,7 +1788,7 @@
     "pk": 224,
     "fields": {
       "pais": "Togo",
-      "Nacionalidad": "Togolés"
+      "nombre_nacionalidad": "Togolés"
     }
   },
   {
@@ -1796,7 +1796,7 @@
     "pk": 225,
     "fields": {
       "pais": "Tokelau",
-      "Nacionalidad": "Tokelauense"
+      "nombre_nacionalidad": "Tokelauense"
     }
   },
   {
@@ -1804,7 +1804,7 @@
     "pk": 226,
     "fields": {
       "pais": "Tonga",
-      "Nacionalidad": "Tongano"
+      "nombre_nacionalidad": "Tongano"
     }
   },
   {
@@ -1812,7 +1812,7 @@
     "pk": 227,
     "fields": {
       "pais": "Trinidad y Tobago",
-      "Nacionalidad": "Trinitense"
+      "nombre_nacionalidad": "Trinitense"
     }
   },
   {
@@ -1820,7 +1820,7 @@
     "pk": 228,
     "fields": {
       "pais": "Túnez",
-      "Nacionalidad": "Tunecino"
+      "nombre_nacionalidad": "Tunecino"
     }
   },
   {
@@ -1828,7 +1828,7 @@
     "pk": 229,
     "fields": {
       "pais": "Turkmenistán",
-      "Nacionalidad": "Turcomano"
+      "nombre_nacionalidad": "Turcomano"
     }
   },
   {
@@ -1836,7 +1836,7 @@
     "pk": 230,
     "fields": {
       "pais": "Turquía",
-      "Nacionalidad": "Turco"
+      "nombre_nacionalidad": "Turco"
     }
   },
   {
@@ -1844,7 +1844,7 @@
     "pk": 231,
     "fields": {
       "pais": "Tuvalu",
-      "Nacionalidad": "Tuvaluano"
+      "nombre_nacionalidad": "Tuvaluano"
     }
   },
   {
@@ -1852,7 +1852,7 @@
     "pk": 232,
     "fields": {
       "pais": "Ucrania",
-      "Nacionalidad": "Ucraniano"
+      "nombre_nacionalidad": "Ucraniano"
     }
   },
   {
@@ -1860,7 +1860,7 @@
     "pk": 233,
     "fields": {
       "pais": "Uganda",
-      "Nacionalidad": "Ugandés"
+      "nombre_nacionalidad": "Ugandés"
     }
   },
   {
@@ -1868,7 +1868,7 @@
     "pk": 234,
     "fields": {
       "pais": "Uruguay",
-      "Nacionalidad": "Uruguayo"
+      "nombre_nacionalidad": "Uruguayo"
     }
   },
   {
@@ -1876,7 +1876,7 @@
     "pk": 235,
     "fields": {
       "pais": "Uzbekistán",
-      "Nacionalidad": "Uzbeko"
+      "nombre_nacionalidad": "Uzbeko"
     }
   },
   {
@@ -1884,7 +1884,7 @@
     "pk": 236,
     "fields": {
       "pais": "Vanuatu",
-      "Nacionalidad": "Vanuatuense"
+      "nombre_nacionalidad": "Vanuatuense"
     }
   },
   {
@@ -1892,7 +1892,7 @@
     "pk": 237,
     "fields": {
       "pais": "República Bolivariana de Venezuela",
-      "Nacionalidad": "Venezolano"
+      "nombre_nacionalidad": "Venezolano"
     }
   },
   {
@@ -1900,7 +1900,7 @@
     "pk": 238,
     "fields": {
       "pais": "Viet Nam",
-      "Nacionalidad": "Vietnamita"
+      "nombre_nacionalidad": "Vietnamita"
     }
   },
   {
@@ -1908,7 +1908,7 @@
     "pk": 239,
     "fields": {
       "pais": "Wallis y Futuna",
-      "Nacionalidad": "Walisiano"
+      "nombre_nacionalidad": "Walisiano"
     }
   },
   {
@@ -1916,7 +1916,7 @@
     "pk": 240,
     "fields": {
       "pais": "Yemen",
-      "Nacionalidad": "Yemení"
+      "nombre_nacionalidad": "Yemení"
     }
   },
   {
@@ -1924,7 +1924,7 @@
     "pk": 241,
     "fields": {
       "pais": "Yibuti",
-      "Nacionalidad": "Yibutiano"
+      "nombre_nacionalidad": "Yibutiano"
     }
   },
   {
@@ -1932,7 +1932,7 @@
     "pk": 242,
     "fields": {
       "pais": "Zambia",
-      "Nacionalidad": "Zambiano"
+      "nombre_nacionalidad": "Zambiano"
     }
   },
   {
@@ -1940,7 +1940,7 @@
     "pk": 243,
     "fields": {
       "pais": "Zimbabue",
-      "Nacionalidad": "Zimbabuense"
+      "nombre_nacionalidad": "Zimbabuense"
     }
   }
 ]

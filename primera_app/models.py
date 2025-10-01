@@ -3,11 +3,16 @@ from django.db import models
 # Create your models here.
 class Nacionalidad(models.Model):
     pais = models.CharField(max_length=56,null=False)
-    Nacionalidad = models.CharField(max_length=56,null=False)
+    nombre_nacionalidad = models.CharField(max_length=56,null=False)
+
+    class Meta:
+        verbose_name_plural = "Nacionalidades"
+    def __str__(self):
+        return self.nombre_nacionalidad
 
 class Autor(models.Model):
     nombre = models.CharField(max_length=250,null=False)
-    pseudonimo = models.CharField(max_length=50,null=True)
+    pseudonimo = models.CharField(max_length=50,blank=True)
     id_nacionalidad = models.ForeignKey(Nacionalidad,on_delete=models.CASCADE)
     bio = models.TextField()
 
@@ -17,10 +22,14 @@ class Comuna(models.Model):
 
 class  Direccion(models.Model):
     id_comuna = models.ForeignKey(Comuna, on_delete=models.CASCADE)
-    calle = models.CharField(max_length=50, null=True)
-    numero = models.CharField(max_length=10, null=True)
-    departamento = models.CharField(max_length=10 , null=True)
-
+    calle = models.CharField(max_length=50, blank= True)
+    numero = models.CharField(max_length=10, blank=True)
+    departamento = models.CharField(max_length=10 , blank=True)
+    class Meta:
+        verbose_name_plural = "Direcciones"
+    def __str__(self):
+        return f"{self.calle} {self.numero}, {self.comuna}"
+    
 class Biblioteca(models.Model):
     nombre = models.CharField(max_length=50, null=False)
     id_direccion = models.ForeignKey(Direccion,on_delete=models.CASCADE)
@@ -37,8 +46,8 @@ class Lector(models.Model):
     nombre = models.CharField(max_length=50, null= False)
     rut = models.IntegerField(null=False, unique=True)
     digito_verificador = models.CharField(max_length=1, null= False)
-    correo = models.CharField(max_length=70, null= True)
-    telefono = models.CharField(max_length=12, null= True)
+    correo = models.CharField(max_length=70, blank= True)
+    telefono = models.CharField(max_length=12, blank= True)
     id_direccion = models.ForeignKey(Direccion, on_delete=models.CASCADE)
     id_biblioteca = models.ForeignKey(Biblioteca, on_delete= models.CASCADE)
 
@@ -61,7 +70,7 @@ class TipoCategoria(models.Model):
 class Categoria(models.Model):
     tipo_categoria = models.ForeignKey(TipoCategoria, on_delete=models.CASCADE)
     nombre = models.CharField(max_length=100)
-    descripcion = models.TextField(blank=True, null=True)
+    descripcion = models.TextField(blank=True)
     habilitado = models.BooleanField(default=True)
     # AÑADE null=True a estas dos líneas
     updated_at = models.DateTimeField(auto_now=True, null=True)

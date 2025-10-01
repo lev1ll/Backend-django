@@ -1,54 +1,58 @@
 from django.shortcuts import render
 from rest_framework import viewsets 
-from .serializer import Nacionalidad_Serializer, Comuna_Serializer,Direccion_Serializer,Libro_Serializer,Lector_Serializer,Prestamo_Serializer,Autor_Serializer, Bibilioteca_Serializer,TipoCategoria_Serializer,Categoria_Serializer
+from .serializer import NacionalidadSerializer, ComunaSerializer,DireccionSerializer,LibroSerializer,LectorSerializer,PrestamoSerializer,AutorSerializer, BibiliotecaSerializer,TipoCategoriaSerializer,CategoriaSerializer
 from .models import Nacionalidad,Comuna,Direccion,Lector,Libro,Autor,Prestamo,Biblioteca,TipoCategoria,Categoria
+
+def pagina_inicio(request):
+    return render(request, 'primera_app/inicio.html')
+
 
 
 # Create your views here.
 
-class Nacionalidad_ViewSet(viewsets.ModelViewSet):
+class NacionalidadViewSet(viewsets.ModelViewSet):
     queryset = Nacionalidad.objects.all()
-    serializer_class = Nacionalidad_Serializer
+    serializer_class = NacionalidadSerializer
 
 
-class Autor_ViewSet(viewsets.ModelViewSet):
+class AutorViewSet(viewsets.ModelViewSet):
     queryset = Autor.objects.all()
-    serializer_class = Autor_Serializer
+    serializer_class = AutorSerializer
 
 
-class Comuna_ViewSet(viewsets.ModelViewSet):
+class ComunaViewSet(viewsets.ModelViewSet):
     queryset = Comuna.objects.all()
-    serializer_class = Comuna_Serializer
+    serializer_class = ComunaSerializer
 
 
-class Direccion_ViewSet(viewsets.ModelViewSet):
+class DireccionViewSet(viewsets.ModelViewSet):
     queryset = Direccion.objects.all()
-    serializer_class = Direccion_Serializer
+    serializer_class = DireccionSerializer
 
 
-class Biblioteca_ViewSet(viewsets.ModelViewSet):
+class BibliotecaViewSet(viewsets.ModelViewSet):
     queryset = Biblioteca.objects.all()
-    serializer_class = Bibilioteca_Serializer
+    serializer_class = BibiliotecaSerializer
 
 
-class Libro_ViewSet(viewsets.ModelViewSet):
+class LibroViewSet(viewsets.ModelViewSet):
     queryset = Libro.objects.all()
-    serializer_class = Libro_Serializer
+    serializer_class = LibroSerializer
 
 
-class Lector_ViewSet(viewsets.ModelViewSet):
+class LectorViewSet(viewsets.ModelViewSet):
     queryset = Lector.objects.all()
-    serializer_class = Lector_Serializer
+    serializer_class = LectorSerializer
 
 
-class Prestamo_ViewSet(viewsets.ModelViewSet):
+class PrestamoViewSet(viewsets.ModelViewSet):
     queryset = Prestamo.objects.all()
-    serializer_class = Prestamo_Serializer
+    serializer_class = PrestamoSerializer
 
-class TipoCategoria_ViewSet(viewsets.ModelViewSet):
+class TipoCategoriaViewSet(viewsets.ModelViewSet):
     queryset = TipoCategoria.objects.all()
-    serializer_class = TipoCategoria_Serializer
+    serializer_class = TipoCategoriaSerializer
 
-class Categoria_ViewSet(viewsets.ModelViewSet):
+class CategoriaViewSet(viewsets.ModelViewSet):
     queryset = Categoria.objects.all()
-    serializer_class = Categoria_Serializer
+    serializer_class = CategoriaSerializer
