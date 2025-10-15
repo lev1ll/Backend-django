@@ -25,5 +25,8 @@ urlpatterns = [
     path('', app_views.pagina_inicio, name='home'),
     path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
-    path('api-auth/', include('rest_framework.urls')),
+    path('registro/', app_views.registro, name='registro'),
+    
+    # --- ESTA ES LA LÍNEA CORREGIDA ---
+    path('accounts/', include('django.contrib.auth.urls')),
 ]

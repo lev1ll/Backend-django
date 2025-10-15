@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'primera_app',
     'rest_framework',
-    'drf_yasg'
+    'drf_yasg',
+    'bootstrap5',
     ]
 
 MIDDLEWARE = [
@@ -134,3 +135,18 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.IsAuthenticated',
     ]
 }
+
+# A dónde ir después de iniciar sesión
+LOGIN_REDIRECT_URL = '/'
+
+# A dónde ir después de cerrar sesión
+LOGOUT_REDIRECT_URL = '/'
+
+# La sesión expira después de 1 hora de inactividad
+SESSION_COOKIE_AGE = 3600
+
+# La sesión expira cuando el usuario cierra el navegador
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+
+# Usar la base de datos para almacenar las sesiones (más seguro)
+SESSION_ENGINE = 'django.contrib.sessions.backends.db'
