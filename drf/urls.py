@@ -1,32 +1,39 @@
 from django.contrib import admin
 from django.urls import path, include
-from primera_app import views as app_views
+from primera_app import views
+from django.contrib.auth import views as auth_views
 
+# Configuración para la documentación de la API
 from rest_framework import permissions
 from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
 
 schema_view = get_schema_view(
-   openapi.Info(
-      title="API de Biblioteca",
-      default_version='v1',
-      description="Documentación de la API para el proyecto de biblioteca.",
-      terms_of_service="https://www.google.com/policies/terms/",
-      contact=openapi.Contact(email="contacto@tuproyecto.com"),
-      license=openapi.License(name="BSD License"),
-   ),
-   public=True,
-   permission_classes=(permissions.AllowAny,),
+    openapi.Info(
+        title="Documentación API Mi_Aplicacion",
+        default_version='v1',
+        description="Mi_Aplicacion",
+        terms_of_service="https://www.google.com/policies/terms/",
+        contact=openapi.Contact(email="mi_correo@test.test"),
+        license=openapi.License(name="BSD License"),
+    ),
+    public=True,
 )
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('primera_app.urls')),
-    path('', app_views.pagina_inicio, name='home'),
+    path('', views.pagina_inicio, name='home'),
+    
+    # URL's para aplicación particular
+    path('primera_app/', include('primera_app.urls')),
+    
+    # URL's para documentación de API
     path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
-    path('registro/', app_views.registro, name='registro'),
     
-    # --- ESTA ES LA LÍNEA CORREGIDA ---
+    # URL's de autenticación
     path('accounts/', include('django.contrib.auth.urls')),
+    path('login/', auth_views.LoginView.as_view(template_name='primera_app/registration/login.html'), name='login'),
+    path('logout/', views.logout_view, name='logout'),  # CAMBIO: Vista personalizada
+    path('registro/', views.registro, name='registro'),
 ]
