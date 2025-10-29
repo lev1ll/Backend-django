@@ -1,0 +1,101 @@
+{% extends 'primera_app/base.html' %}
+{% load static %}
+{% load widget_tweaks %}
+
+{% block title %}Listado de Libros{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <h1 class="mb-4">Listado de Libros</h1>
+
+    <!-- Formulario de Filtros -->
+    <div class="row mb-4">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0">Filtrar Libros</h5>
+                </div>
+                <div class="card-body">
+                    <form method="get">
+                        <div class="row">
+                            {% for field in filter.form %}
+                            <div class="col-md-6 mb-3">
+                                {{ field.label_tag }}
+                                {% render_field field class="form-control" placeholder=field.label %}
+                            </div>
+                            {% endfor %}
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="bi bi-funnel"></i> Aplicar Filtros
+                        </button>
+                        <a href="{% url 'listado_libros' %}" class="btn btn-secondary">
+                            <i class="bi bi-x-circle"></i> Limpiar Filtros
+                        </a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Resultados en Tarjetas -->
+    <div class="row">
+        {% if filter.qs %}
+            {% for libro in filter.qs %}
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-header bg-info text-white">
+                        <h5 class="card-title mb-0">
+                            <i class="bi bi-book"></i> {{ libro.titulo }}
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            <strong><i class="bi bi-person"></i> Autor:</strong>
+                            {{ libro.id_autor }}
+                        </p>
+                        <p class="card-text">
+                            <strong><i class="bi bi-tag"></i> Categoría:</strong>
+                            {% if libro.id_categoria %}
+                                {{ libro.id_categoria }}
+                            {% else %}
+                                <span class="text-muted">Sin categoría</span>
+                            {% endif %}
+                        </p>
+                        <p class="card-text">
+                            <strong><i class="bi bi-building"></i> Biblioteca:</strong>
+                            {{ libro.id_biblioteca }}
+                        </p>
+                        <p class="card-text">
+                            <strong><i class="bi bi-file-text"></i> Páginas:</strong>
+                            {{ libro.paginas }}
+                        </p>
+                        <p class="card-text">
+                            <strong><i class="bi bi-stack"></i> Copias disponibles:</strong>
+                            <span class="badge bg-success">{{ libro.copias }}</span>
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Género: {{ libro.genero }}</small>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        {% else %}
+            <div class="col-12">
+                <div class="alert alert-info" role="alert">
+                    <i class="bi bi-info-circle"></i> No se encontraron libros que coincidan con los filtros seleccionados.
+                </div>
+            </div>
+        {% endif %}
+    </div>
+
+    <!-- Total de resultados -->
+    <div class="row mt-3">
+        <div class="col-12">
+            <p class="text-muted">
+                <strong>Total de libros encontrados:</strong> {{ filter.qs.count }}
+            </p>
+        </div>
+    </div>
+</div>
+{% endblock %}

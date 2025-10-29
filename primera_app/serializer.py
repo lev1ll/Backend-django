@@ -21,7 +21,7 @@ class DireccionSerializer(serializers.ModelSerializer):
         model = Direccion
         fields = '__all__'
 
-class BibiliotecaSerializer(serializers.ModelSerializer):
+class BibliotecaSerializer(serializers.ModelSerializer):
     class Meta:
         model = Biblioteca
         fields = '__all__'

@@ -1,5 +1,27 @@
 from django.db import models
+from rutificador import Rut
+from django.core.exceptions import ValidationError
+import datetime
 
+ahora = datetime.datetime.now
+
+# Create your models here.
+
+
+def validar_rut(rut):
+    try:
+        rut_valido = Rut(rut)
+    except:
+        raise ValidationError('Dígito verificador NO corresponde.')
+
+
+def validar_mayoria_edad(fecha_nacimiento):
+    fecha_actual = datetime.datetime.today()
+    edad = fecha_actual.year - fecha_nacimiento.year
+    if (fecha_nacimiento.month, fecha_nacimiento.day) > (fecha_actual.month, fecha_actual.day):
+        edad -= 1
+    if edad < 18:
+        raise ValidationError('Debe ser mayor de edad...')
 # Create your models here.
 class Nacionalidad(models.Model):
     pais = models.CharField(max_length=56,null=False)
@@ -46,26 +68,30 @@ class Biblioteca(models.Model):
 
 class Libro(models.Model):
     id_biblioteca = models.ForeignKey(Biblioteca, on_delete=models.CASCADE)
+    id_categoria = models.ForeignKey('Categoria', on_delete=models.CASCADE, blank=True, null=True)
+    id_autor = models.ForeignKey(Autor, on_delete=models.CASCADE)
     genero = models.CharField(max_length=20, null=False)
     titulo = models.CharField(max_length=50, null=False)
-    id_autor = models.ForeignKey(Autor,on_delete=models.CASCADE)
     paginas = models.IntegerField(null=False)
     copias = models.IntegerField(null=False)
-    
+
     def __str__(self):
         return self.titulo
 
 class Lector(models.Model):
-    nombre = models.CharField(max_length=50, null=False)
-    rut = models.IntegerField(null=False, unique=True)
-    digito_verificador = models.CharField(max_length=1, null=False)
-    correo = models.CharField(max_length=70, blank=True)
+    id_biblioteca = models.ForeignKey(Biblioteca, on_delete=models.CASCADE, blank=False)
+    id_direccion = models.ForeignKey(Direccion, on_delete=models.CASCADE, blank=True)
+    rut_lector = models.CharField(max_length=12, blank=False, unique=True, validators=[validar_rut])
+    nombre_lector = models.CharField(max_length=255, blank=False)
+    correo_lector = models.CharField(max_length=255, blank=True)
     telefono = models.CharField(max_length=12, blank=True)
-    id_direccion = models.ForeignKey(Direccion, on_delete=models.CASCADE)
-    id_biblioteca = models.ForeignKey(Biblioteca, on_delete=models.CASCADE)
-    
+    fecha_nacimiento = models.DateField(blank=True, null=True, validators=[validar_mayoria_edad])
+    habilitado = models.BooleanField(default=True)
+    created_at = models.DateTimeField(default=ahora)
+    updated_at = models.DateTimeField(auto_now=True)
+
     def __str__(self):
-        return self.nombre
+        return self.nombre_lector
 
 class Prestamo(models.Model):
     id_libro = models.ForeignKey(Libro,on_delete=models.CASCADE)

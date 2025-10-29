@@ -23,7 +23,8 @@ schema_view = get_schema_view(
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.pagina_inicio, name='home'),
-    
+    path('libros/', views.listado_libros, name='listado_libros'),
+
     # URL's para aplicación particular
     path('primera_app/', include('primera_app.urls')),
     

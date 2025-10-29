@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'drf_yasg',
     'bootstrap5',
+    'django_filters',
+    'widget_tweaks',
     ]
 
 MIDDLEWARE = [
@@ -145,8 +147,3 @@ SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 # Usar la base de datos para almacenar las sesiones (más seguro)
 SESSION_ENGINE = 'django.contrib.sessions.backends.db'
 
-REST_FRAMEWORK = {
-    'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.IsAuthenticated',
-    ],
-}

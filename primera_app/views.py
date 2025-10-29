@@ -5,8 +5,26 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth.forms import UserCreationForm
 from rest_framework import viewsets
 from rest_framework.authentication import SessionAuthentication
-from .serializer import NacionalidadSerializer, ComunaSerializer, DireccionSerializer, LibroSerializer, LectorSerializer, PrestamoSerializer, AutorSerializer, BibiliotecaSerializer, TipoCategoriaSerializer, CategoriaSerializer
+from rest_framework.permissions import IsAuthenticated
+import django_filters
+from .serializer import NacionalidadSerializer, ComunaSerializer, DireccionSerializer, LibroSerializer, LectorSerializer, PrestamoSerializer, AutorSerializer, BibliotecaSerializer, TipoCategoriaSerializer, CategoriaSerializer
 from .models import Nacionalidad, Comuna, Direccion, Lector, Libro, Autor, Prestamo, Biblioteca, TipoCategoria, Categoria
+
+
+# Clase de filtros para Libro (según PDF del profesor página 18)
+class LibroFilter(django_filters.FilterSet):
+    id_categoria = django_filters.ModelChoiceFilter(
+        queryset=Categoria.objects.all(),
+        label='Categoría'
+    )
+    id_autor = django_filters.ModelChoiceFilter(
+        queryset=Autor.objects.all(),
+        label='Autor'
+    )
+
+    class Meta:
+        model = Libro
+        fields = ['id_categoria', 'id_autor']
 
 
 def logout_view(request):
@@ -32,53 +50,69 @@ def registro(request):
 def pagina_inicio(request):
     return render(request, 'primera_app/inicio.html')
 
+# Vista con filtros para listar libros (según PDF del profesor página 19)
+@login_required
+def listado_libros(request):
+    f = LibroFilter(request.GET, queryset=Libro.objects.all())
+    return render(request, 'primera_app/lista_libros.html', {'filter': f})
+
 # ViewSets para la API
 class NacionalidadViewSet(viewsets.ModelViewSet):
     authentication_classes = [SessionAuthentication]
+    permission_classes = [IsAuthenticated]
     queryset = Nacionalidad.objects.all()
     serializer_class = NacionalidadSerializer
 
 class AutorViewSet(viewsets.ModelViewSet):
     authentication_classes = [SessionAuthentication]
+    permission_classes = [IsAuthenticated]
     queryset = Autor.objects.all()
     serializer_class = AutorSerializer
 
 class ComunaViewSet(viewsets.ModelViewSet):
     authentication_classes = [SessionAuthentication]
+    permission_classes = [IsAuthenticated]
     queryset = Comuna.objects.all()
     serializer_class = ComunaSerializer
 
 class DireccionViewSet(viewsets.ModelViewSet):
     authentication_classes = [SessionAuthentication]
+    permission_classes = [IsAuthenticated]
     queryset = Direccion.objects.all()
     serializer_class = DireccionSerializer
 
 class BibliotecaViewSet(viewsets.ModelViewSet):
     authentication_classes = [SessionAuthentication]
+    permission_classes = [IsAuthenticated]
     queryset = Biblioteca.objects.all()
-    serializer_class = BibiliotecaSerializer
+    serializer_class = BibliotecaSerializer
 
 class LectorViewSet(viewsets.ModelViewSet):
     authentication_classes = [SessionAuthentication]
+    permission_classes = [IsAuthenticated]
     queryset = Lector.objects.all()
     serializer_class = LectorSerializer
 
 class TipoCategoriaViewSet(viewsets.ModelViewSet):
     authentication_classes = [SessionAuthentication]
+    permission_classes = [IsAuthenticated]
     queryset = TipoCategoria.objects.all()
     serializer_class = TipoCategoriaSerializer
 
 class CategoriaViewSet(viewsets.ModelViewSet):
     authentication_classes = [SessionAuthentication]
+    permission_classes = [IsAuthenticated]
     queryset = Categoria.objects.all()
     serializer_class = CategoriaSerializer
 
 class LibroViewSet(viewsets.ModelViewSet):
     authentication_classes = [SessionAuthentication]
+    permission_classes = [IsAuthenticated]
     queryset = Libro.objects.all()
     serializer_class = LibroSerializer
 
 class PrestamoViewSet(viewsets.ModelViewSet):
     authentication_classes = [SessionAuthentication]
+    permission_classes = [IsAuthenticated]
     queryset = Prestamo.objects.all()
     serializer_class = PrestamoSerializer
