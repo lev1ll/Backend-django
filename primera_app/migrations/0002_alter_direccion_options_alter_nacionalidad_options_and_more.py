@@ -21,24 +21,11 @@ class Migration(migrations.Migration):
             name='nacionalidad',
             options={'verbose_name_plural': 'Nacionalidades'},
         ),
-        # --- OPERACIONES YA APLICADAS EN INTENTO ANTERIOR (COMENTADAS) ---
-        # migrations.RemoveField(model_name='lector', name='digito_verificador'),  # YA ELIMINADO
-        # migrations.RenameField(model_name='lector', old_name='nombre', new_name='nombre_lector'),  # YA RENOMBRADO
-        # migrations.RenameField(model_name='lector', old_name='correo', new_name='correo_lector'),  # YA RENOMBRADO
-        # migrations.RemoveField(model_name='lector', name='rut'),  # YA ELIMINADO
-        # migrations.AddField(model_name='lector', name='rut_lector', ...),  # YA AGREGADO
-        # migrations.AddField(model_name='lector', name='created_at', ...),  # YA AGREGADO
-        # migrations.AddField(model_name='lector', name='habilitado', ...),  # YA AGREGADO
-        # migrations.AddField(model_name='lector', name='updated_at', ...),  # YA AGREGADO
-
-        # --- OPERACIONES PENDIENTES ---
-        # Solo agregamos fecha_nacimiento que es el único campo que falta
         migrations.AddField(
             model_name='lector',
             name='fecha_nacimiento',
             field=models.DateField(blank=True, null=True, validators=[primera_app.models.validar_mayoria_edad]),
         ),
-        # Modificamos id_direccion para permitir blank=True
         migrations.AlterField(
             model_name='lector',
             name='id_direccion',
