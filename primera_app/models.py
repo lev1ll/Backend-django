@@ -5,8 +5,7 @@ import datetime
 
 ahora = datetime.datetime.now
 
-# Create your models here.
-
+# Acá creo mis validaciones personalizadas para el RUT y la edad
 
 def validar_rut(rut):
     try:
@@ -22,7 +21,8 @@ def validar_mayoria_edad(fecha_nacimiento):
         edad -= 1
     if edad < 18:
         raise ValidationError('Debe ser mayor de edad...')
-# Create your models here.
+# Acá voy creando todos mis modelos para el sistema de biblioteca
+
 class Nacionalidad(models.Model):
     pais = models.CharField(max_length=56,null=False)
     nombre_nacionalidad = models.CharField(max_length=56,null=False)

@@ -1,7 +1,7 @@
 from django.contrib import admin
 from .models import Nacionalidad, Autor, Comuna, Direccion, Biblioteca, Libro, Lector, Prestamo, TipoCategoria,Categoria
 
-# Register your models here.
+# Acá registro todos mis modelos para que aparezcan en el panel de administración de Django
 admin.site.register(Nacionalidad)
 admin.site.register(Autor)
 admin.site.register(Comuna)

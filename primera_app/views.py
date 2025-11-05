@@ -11,7 +11,7 @@ from .serializer import NacionalidadSerializer, ComunaSerializer, DireccionSeria
 from .models import Nacionalidad, Comuna, Direccion, Lector, Libro, Autor, Prestamo, Biblioteca, TipoCategoria, Categoria
 
 
-# Clase de filtros para Libro (según PDF del profesor página 18)
+# Acá creo los filtros para poder buscar libros por categoría o por autor
 class LibroFilter(django_filters.FilterSet):
     id_categoria = django_filters.ModelChoiceFilter(
         queryset=Categoria.objects.all(),
@@ -50,13 +50,13 @@ def registro(request):
 def pagina_inicio(request):
     return render(request, 'primera_app/inicio.html')
 
-# Vista con filtros para listar libros (según PDF del profesor página 19)
+# Esta vista muestra el listado de libros y permite filtrarlos
 @login_required
 def listado_libros(request):
     f = LibroFilter(request.GET, queryset=Libro.objects.all())
     return render(request, 'primera_app/lista_libros.html', {'filter': f})
 
-# ViewSets para la API
+# Acá creo los ViewSets para la API REST - cada uno maneja el CRUD de su modelo
 class NacionalidadViewSet(viewsets.ModelViewSet):
     authentication_classes = [SessionAuthentication]
     permission_classes = [IsAuthenticated]

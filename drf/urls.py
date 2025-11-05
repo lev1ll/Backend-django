@@ -2,7 +2,7 @@ from django.contrib import admin
 from django.urls import path, include
 from primera_app import views
 
-# Configuración para la documentación de la API
+# Acá configuro Swagger para tener documentación automática de mi API
 from rest_framework import permissions
 from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
@@ -25,16 +25,16 @@ urlpatterns = [
     path('', views.pagina_inicio, name='home'),
     path('libros/', views.listado_libros, name='listado_libros'),
 
-    # URL's para aplicación particular
+    # Acá incluyo todas las URLs de mi aplicación (los endpoints de la API)
     path('primera_app/', include('primera_app.urls')),
-    
-    # URL's para documentación de API
+
+    # Estas rutas son para ver la documentación de la API con Swagger y ReDoc
     path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
-    
-    # URL's de autenticación
+
+    # Rutas para login, logout y registro de usuarios
     path('accounts/', include('django.contrib.auth.urls')),
-    path('logout/', views.logout_view, name='logout'),  
+    path('logout/', views.logout_view, name='logout'),
     path('registro/', views.registro, name='registro'),
-    path('login/', auth_views.LoginView.as_view(), name='login'), 
+    path('login/', auth_views.LoginView.as_view(), name='login'),
 ]

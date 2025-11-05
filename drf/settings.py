@@ -132,18 +132,18 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# A dónde ir después de iniciar sesión
+# Después de hacer login, lo mando a la página de inicio
 LOGIN_REDIRECT_URL = '/'
 
-# A dónde ir después de cerrar sesión
+# Después de hacer logout, también lo redirijo al inicio
 LOGOUT_REDIRECT_URL = '/'
 
-# La sesión expira después de 1 hora de inactividad
+# La sesión del usuario expira después de 1 hora sin actividad
 SESSION_COOKIE_AGE = 3600
 
-# La sesión expira cuando el usuario cierra el navegador
+# La sesión se borra cuando el usuario cierra el navegador
 SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 
-# Usar la base de datos para almacenar las sesiones (más seguro)
+# Guardo las sesiones en la base de datos en vez de archivos
 SESSION_ENGINE = 'django.contrib.sessions.backends.db'
 
